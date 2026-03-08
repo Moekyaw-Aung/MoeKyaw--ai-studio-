@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Get Started with Gemini API JS/TS SDK</title>
+    <link rel="stylesheet" href="index.css" />
+    <script type="importmap">
+      {
+        "imports": {
+          "safevalues/dom": "https://cdn.jsdelivr.net/npm/safevalues@1.2.0/dist/mjs/dom/index.js",
+          "safevalues/": "https://esm.sh/safevalues@^1.2.0/",
+          "safevalues": "https://cdn.jsdelivr.net/npm/safevalues@1.2.0/dist/mjs/index.js",
+          "markdown-it": "https://esm.sh/markdown-it@^14.1.0",
+          "sortablejs": "https://cdn.jsdelivr.net/npm/sortablejs@1.15.2/modular/sortable.complete.esm.js",
+          "monaco-editor/": "https://esm.sh/monaco-editor@^0.52.2/",
+          "@monaco-editor/loader": "https://esm.sh/@monaco-editor/loader@^1.5.0"
+        }
+      }
+    </script>
+
+    <link rel="stylesheet" href="/index.css" />
+  <link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <header class="app-header">
+      <div class="file-info">
+        <i class="fa-regular fa-file-lines"></i>
+        <span id="notebook-title">Get Started with Gemini API JS/TS SDK</span>
+      </div>
+      <nav class="menu-bar">
+        <div class="menu-item">
+          <button class="menu-button">File</button>
+          <div class="dropdown-content">
+            <button id="new-btn">New</button>
+            <button id="download-btn">Download (.js)</button>
+            <button id="github-btn">View on GitHub</button>
+          </div>
+        </div>
+        <div class="menu-item">
+          <button class="menu-button">Edit</button>
+          <div class="dropdown-content">
+            <button id="cut-cell-btn">Cut Cell</button>
+            <button id="copy-cell-btn">Copy Cell</button>
+            <button id="paste-cell-btn">Paste Cell</button>
+          </div>
+        </div>
+        <div class="menu-item">
+          <button class="menu-button">View</button>
+          <div class="dropdown-content">
+            <button id="toggle-fullscreen-btn">Toggle Fullscreen</button>
+            <button id="toggle-line-numbers-btn">Toggle Line Numbers</button>
+          </div>
+        </div>
+        <div class="menu-item">
+          <button class="menu-button">Insert</button>
+          <div class="dropdown-content">
+            <button id="insert-code-btn">Insert Code Cell</button>
+            <button id="insert-md-btn">Insert Markdown Cell</button>
+            <button id="insert-code-above-btn">Insert Code Above</button>
+            <button id="insert-md-above-btn">Insert Markdown Above</button>
+          </div>
+        </div>
+        <div class="menu-item">
+          <button class="menu-button">Runtime</button>
+          <div class="dropdown-content">
+            <button id="run-all-btn">Run All</button>
+            <button id="restart-kernel-btn">Restart Kernel</button>
+            <button id="restart-run-all-btn">Restart & Run All</button>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div id="notebook"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

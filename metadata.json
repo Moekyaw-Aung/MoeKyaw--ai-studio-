@@ -1,0 +1,6 @@
+{
+  "name": "Remix: Remix: Get Started with Nano Banana",
+  "description": "Discover how to use the Nano Banana models (aka Gemini Image) using the Gemini JS SDK in an interactive way. No need to create an API key or set up your environment.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}
